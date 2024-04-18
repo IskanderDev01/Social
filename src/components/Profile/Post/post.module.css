@@ -1,0 +1,28 @@
+.post{
+    background-color: #F5F5F5;
+    padding: 0px 5px;
+    margin: 5px 0px;
+}
+.post div:first-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 0px;
+}
+.post div:last-child{
+    padding-bottom: 5px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+.post div:last-child span{
+    margin-left: 5px;
+}
+.post img{
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

@@ -1,0 +1,26 @@
+.paginator{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.counts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.counts div{
+    margin: 0px 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.activeNum {
+    background-color: #6495ED;
+    color: #FFFAFA;
+}
+.paginator button i {
+    color: #6495ED;
+    margin: 0px 5px;
+}

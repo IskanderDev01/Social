@@ -1,0 +1,45 @@
+.usersPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.items {
+    padding: 10px 5px;
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formik {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+.formik form {
+    display: flex;
+    flex-direction: row;
+}
+.formik form input{
+    font-family: monospace;
+    width: 550px;
+    padding: 10px;
+    border: 2px solid #6495ED;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.formik form button{
+    margin-left: 5px;
+    background-color: #6495ED;
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: white;
+    transition: 0.2s;
+}
+.formik form button:hover{
+    box-shadow: 0px 0px 5px #6495ED;
+}

@@ -1,0 +1,32 @@
+.users_date{
+    padding-top: 15px;
+    display: flex;
+}
+.users_date div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.users_date div:first-child img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.users_date div:last-child{
+    font-size: 16px;
+    padding-left: 25px;
+}
+.users_date div:last-child ul li{
+    padding: 5px 0px;
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.status input{
+    border-bottom: 1px solid #6495ED;
+}

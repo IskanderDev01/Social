@@ -1,0 +1,43 @@
+.login {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.login .page {
+    padding: 10px 0px;
+}
+.login form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.login form .checkbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items:center;
+}
+.login form .checkbox span {
+    margin-left: 10px;
+}
+.login form button {
+    margin-top: 10px;
+    padding: 5px 25px;
+    border-radius: 5px;
+    background-color: #6495ED;
+    color: white;
+}
+.login form button:hover {
+    box-shadow: 1px 0px 5px #6495ED;
+}
+.login .errorBlock {
+    padding-top: 10px;
+    font-size: 20px;
+    color: red;
+    font-weight: 700;
+}

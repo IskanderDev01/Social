@@ -1,0 +1,51 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    padding: 10px;
+    height: 600px;
+    overflow-y: scroll;
+}
+.message {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 10px;
+}
+.message .mess {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+.profile img {
+    width: 40px;
+    margin-right: 5px;
+}
+.profile span {
+    font-weight: 700;
+    font-size: 15px;
+}
+.sendMessage .form{
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.sendMessage .form input{
+    padding: 10px;
+    background-color: #f1f1f1;
+    width: 80.5%;
+}
+.sendMessage .form button{
+    padding: 0px 15px;
+    background-color: #87CEFA;
+    color: white;
+}

@@ -1,0 +1,44 @@
+.block{
+    padding: 15px 0px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.block span{
+    text-align: center;
+}
+
+.block form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 15px 0px;
+    padding: 0px 15px;
+}
+.block form button{
+    margin-left: 5px;
+    background-color: #6495ED;
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: white;
+    transition: 0.2s;
+}
+.block form button:hover{
+    box-shadow: 0px 0px 5px #6495ED;
+}
+.block form input{
+    font-family: monospace;
+    padding: 0px 15px;
+    width: 60%;
+    padding: 10px;
+    border: 2px solid #6495ED;
+    border-radius: 5px;
+}
+.block form input:focus{
+    box-shadow: 0px 0px 5px #6495ED;
+}
+.block .comments {
+    height: 350px;
+    overflow-y: scroll;
+}

@@ -1,0 +1,46 @@
+.item{
+    box-shadow: 0px 1px 3px rgb(221, 221, 221) ;
+    width: 60%;
+    padding: 5px 10px;
+    margin: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.item .img{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.usersDate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.usersDate div:first-child{
+    font-weight: 600;
+}
+.usersDate div:last-child{
+    font-weight: 400;
+    color: rgb(93, 105, 118);
+}
+.usersDate div{
+    margin: 5px 0px;
+}
+.followButton button{
+    color: #FFFAFA;
+    background-color: #6495ED;
+    padding: 10px;
+    border-radius: 5px;
+}
+.unFollowButton button{
+    color: #FFFAFA;
+    background-color: lightslategray;
+    padding: 10px;
+    border-radius: 5px;
+}
